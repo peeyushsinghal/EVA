@@ -1,5 +1,11 @@
 S4 Assignment
 -----------
+The intention is that for MNIST achieve
+
+1. 99.4% validation accuracy : achieved 99%
+2. Less than 20k Parameters : 25.3K 
+3. Less than 20 Epochs : OK
+
 Network
 -------
 
