@@ -53,6 +53,7 @@ Training and Test Function
   
   Training and Test logs
   ----------------------
+  
  /usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
   return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
 Inside Training epoch - 1, processing step 1 , Training loss: 2.624965190887451
@@ -165,5 +166,7 @@ Inside Training epoch - 5, processing step 1801 , Training loss: 0.0159739702939
 After completion of epoch 5   Training loss: 0.012244242243468761
 Testing...
 Test loss: 1.9272407814860344 total_correct_label: 59767 accuracy_labels: 99.612 %  total_correct_sum: 59142 accuracy_correct_sum: 98.57 % 
+
+
 ------------
 
