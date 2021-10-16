@@ -1,5 +1,13 @@
 S4 Assignment
 -----------
+PART 1
+------
+
+Write infomration here.........
+
+PART 2
+------
+
 The intention is that for MNIST achieve
 
 1. 99.4% validation accuracy : achieved 99%
