@@ -51,6 +51,13 @@ Training and Test Function
   -----------
   some samples were tested after training
   
+  Results
+  -------
+  
+  After 5 epoch
+  - **__Accuracy for Label Identification - 99.612 % __**
+  - **__Accuracy for Sum of Label and Random Number - 98.57 % __**
+  
   Training and Test logs
   ----------------------
   
@@ -97,7 +104,7 @@ Inside Training epoch - 2, processing step 1501 , Training loss: 0.1732893139123
 Inside Training epoch - 2, processing step 1601 , Training loss: 0.12538151443004608
 Inside Training epoch - 2, processing step 1701 , Training loss: 0.2292908877134323
 Inside Training epoch - 2, processing step 1801 , Training loss: 0.09654966741800308
-After completion of epoch 2   Training loss: 0.2918633222579956
+After completion of epoch 2   Training loss: 0.2918633222579956**
 Testing...
 Test loss: 9.194906830787659 total_correct_label: 59380 accuracy_labels: 98.967 %  total_correct_sum: 56513 accuracy_correct_sum: 94.188 % 
 Inside Training epoch - 3, processing step 1 , Training loss: 0.12762686610221863
