@@ -2,8 +2,63 @@ S4 Assignment QnA
 -----------
 PART 1
 ------
+Screenshot of excel file
+-----------------------
 
-Write infomration here.........
+![image](https://user-images.githubusercontent.com/10797988/137641020-01784a4a-d46c-47c3-b7af-80ea9ef40951.png)
+
+Steps
+--------
+Loop 1, 2, 3 for n times
+1. Forward Pass : Understanding total loss given the current weights
+		
+- h1=w1 * i1 + w2 * i2			
+- h2=w3 * i1 + w4 * i2			
+- a_h1 = σ(h1) =1/(1+exp(-h1))			
+- a_h2 = σ(h2) =1/(1+exp(-h2))			
+- o1 = w5 * a_h1 + w6 * a_h2 			
+- o2 = w7 * a_h1 + w8 * a_h2 			
+- a_o1 = σ(o1) =1/(1+exp(-o1))			
+- a_o2 = σ(o2) =1/(1+exp(-o2))			
+- E1 = 0.5* (t1-a_o1)^2			
+- E2 = 0.5* (t2-a_o2)^2			
+- E_t = E1 + E2			
+
+2. Finding partial derivative of the total loss with respect to weights
+- 𝜕E_t/𝜕w1 = [(a_o1-t1) * a_o1*(1-a_o1)*w5+(a_o2-t2) * a_o2*(1-a_o2)*w7]*[a_h1*(1-a_h1)]*[i1]
+- 𝜕E_t/𝜕w2 = [(a_o1-t1) * a_o1*(1-a_o1)*w5+(a_o2-t2) * a_o2*(1-a_o2)*w7]*[a_h1*(1-a_h1)]*[i2]
+- 𝜕E_t/𝜕w3 = [(a_o1-t1) * a_o1*(1-a_o1)*w6+(a_o2-t2) * a_o2*(1-a_o2)*w8]*[a_h2*(1-a_h2)]*[i1]
+- 𝜕E_t/𝜕w4 = [(a_o1-t1) * a_o1*(1-a_o1)*w6+(a_o2-t2) * a_o2*(1-a_o2)*w8]*[a_h2*(1-a_h2)]*[i2]
+- 𝜕E_t/𝜕w5 =(a_o1-t1) *a_o1*(1-a_o1)*a_h1
+- 𝜕E_t/𝜕w6 =(a_o1-t1) *a_o1*(1-a_o1)*a_h2
+- 𝜕E_t/𝜕w7 =(a_o2-t2) *a_o2*(1-a_o2)*a_h1
+- 𝜕E_t/𝜕w8 =(a_o2-t2) *a_o2*(1-a_o2)*a_h2
+
+3. Updating the weights 
+-       wi = wi - η * (𝜕E_t/𝜕wi) , where i = 1,2,3,4,5,6,7,8
+
+
+Screenshots of Learning Rate changes
+-----------------
+Learning Rate = 0.1
+![image](https://user-images.githubusercontent.com/10797988/137640733-ea9f3609-293a-4c25-b9a4-3bd20a885ab7.png)
+
+Learning Rate = 0.2
+![image](https://user-images.githubusercontent.com/10797988/137640811-0a82348d-3954-4dc7-b4a8-257ca92d654c.png)
+
+Learning Rate = 0.5
+![image](https://user-images.githubusercontent.com/10797988/137640859-60c70693-1d8c-4ad4-855e-9cd9bbfa146f.png)
+
+Learning Rate = 0.8
+![image](https://user-images.githubusercontent.com/10797988/137640883-8aec12b6-3613-4d8f-b38f-b26413c34c12.png)
+
+Learning Rate = 1.0
+![image](https://user-images.githubusercontent.com/10797988/137640914-21660ebb-109e-40ba-a631-e71ba1ac04cb.png)
+
+Learning Rate = 2.0
+![image](https://user-images.githubusercontent.com/10797988/137640953-90eec360-bbf8-4f79-bd65-92c012d3246b.png)
+
+
 
 PART 2
 ------
