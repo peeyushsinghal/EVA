@@ -179,50 +179,49 @@ class Network(nn.Module):
 
   
   def forward(self,x):
-
+  
     x = self.convblock1(x)
-    if mode: 
-      x = self.norm1(x)
+    x = self.norm1(x)
     x = self.dropout1(x)
 
 
     x = self.convblock2(x)
-    if mode: 
-      x = self.norm2(x)
+    # if mode: 
+    x = self.norm2(x)
     x = self.dropout2(x)
   
 
     x = self.convblock3(x)
-    if mode: 
-      x = self.norm3(x)
+    # if mode: 
+    x = self.norm3(x)
     x = self.dropout3(x)
 
     x = self.convblock3_1(x)
-    if mode: 
-      x = self.norm3_1(x)
+    # if mode: 
+    x = self.norm3_1(x)
     x = self.dropout3_1(x)
 
     x = self.convblock3_2(x)
-    if mode: 
-      x = self.norm3_2(x)
+    # if mode: 
+    x = self.norm3_2(x)
     x = self.dropout3_2(x)
 
     x = self.pool1(x)
 
     x = self.convblock5(x)
-    if mode: 
-      x = self.norm5(x)
+    # if mode: 
+    x = self.norm5(x)
     x = self.dropout5(x)
 
 
     x = self.convblock6(x)
-    if mode: 
-      x = self.norm6(x)
+    # if mode: 
+    x = self.norm6(x)
     x = self.dropout6(x)
 
     x = self.convblock7(x)
-    if mode: 
-      x = self.norm7(x)
+    # if mode: 
+    x = self.norm7(x)
     x = self.dropout7(x)
 
 
