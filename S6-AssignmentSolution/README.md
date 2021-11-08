@@ -20,9 +20,9 @@ Observations
 
 Validation / Test accuracy and loss
 --------------------------------------
-![image](https://user-images.githubusercontent.com/10797988/139734097-aee3a262-b3a2-41db-bc59-81328467fc71.png)
+![image](https://user-images.githubusercontent.com/10797988/140800230-8847ad5c-3e33-4acc-9c31-adb640ccb24b.png)
 
 
 Misclassification of Images
 --------------------------------------
-![image](https://user-images.githubusercontent.com/10797988/139734261-d50a5f34-a9ee-4dd7-906a-be5cdd3d483c.png)
+![image](https://user-images.githubusercontent.com/10797988/140800330-1467ec70-30e7-410b-96de-ab08a02052d8.png)
