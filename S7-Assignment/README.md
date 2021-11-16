@@ -1,4 +1,4 @@
-**Highest validation accuracy achieved = 85.30%**
+**Highest validation accuracy achieved = 85.32%**
 
 Model Code
 ------------
@@ -575,10 +575,10 @@ Loss=0.4272705018520355 Batch_id=390 Accuracy=81.32: 100%|███████�
 
 Test set: Average loss: 0.0000, Accuracy: 8530/10000 (85.30%)
 
-EPOCH: 98
+**EPOCH: 98
 Loss=0.6045482754707336 Batch_id=390 Accuracy=81.31: 100%|██████████| 391/391 [00:33<00:00, 11.69it/s]
 
-Test set: Average loss: 0.0000, Accuracy: 8532/10000 (85.32%)
+**Test set: Average loss: 0.0000, Accuracy: 8532/10000 (85.32%)****
 
 EPOCH: 99
 Loss=0.49902987480163574 Batch_id=390 Accuracy=81.31: 100%|██████████| 391/391 [00:36<00:00, 10.67it/s]
