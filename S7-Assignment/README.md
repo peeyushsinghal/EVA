@@ -1,6 +1,9 @@
+**Highest validation accuracy achieved = 85.30%**
+
 Model Code
 ------------
 Please see model file:  https://github.com/peeyushsinghal/EVA/blob/main/S7-Assignment/model.py
+
 
 Torch Summary
 -------------
