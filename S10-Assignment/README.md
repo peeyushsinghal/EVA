@@ -6,6 +6,15 @@ Objective
  * Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validation Accuracy. 
  * Submit Results. 
   
+EPOCH: 1
+Loss=4.274374961853027 Batch_id=150 Accuracy=4.36: 100%|██████████| 151/151 [19:29<00:00,  7.74s/it]
+
+Test set: Average loss: 0.0001, Accuracy: 2073/33000 (6.28%)
+
+EPOCH: 2
+Loss=4.301364898681641 Batch_id=80 Accuracy=8.91:  54%|█████▎    | 81/151 [10:29<09:04,  7.78s/it]
+
+
 **Assignment B:**  
 
 * Download file. Learn how COCO object detection dataset's schema is. This file has the same schema. You'll need to discover what those number are. 
