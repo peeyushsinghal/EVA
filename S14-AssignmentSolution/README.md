@@ -18,4 +18,7 @@ These are conditional information sent to the decoder, which helps decoder atten
 
 
 Results ( model on dataset)
---------------------------
+-------------------------
+![image](https://user-images.githubusercontent.com/10797988/150816809-dba05bcc-6d4b-4a34-99ea-f61070376bf3.png)
+![image](https://user-images.githubusercontent.com/10797988/150816829-679dd185-1971-4d21-893d-f2676efd13dc.png)
+
